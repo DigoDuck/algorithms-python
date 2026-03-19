@@ -10,12 +10,10 @@ O objetivo não é apenas copiar o código do livro, mas:
 2.  **Testar** casos de borda e variações.
 3.  **Documentar** a complexidade (Big O) de cada solução.
 
-Futuramente, este repositório também servirá para armazenar soluções de desafios de plataformas como *LeetCode* e *HackerRank*.
-
 ## 🚀 Progresso (Entendendo Algoritmos)
 
-- [ ] **Cap. 1:** Introdução a Algoritmos (Binary Search, Big O)
-- [ ] **Cap. 2:** Ordenação por Seleção (Arrays vs Linked Lists)
+- [ ] **Cap. 1:** Introdução a Algoritmos (Busca Binária, Big O)
+- [ ] **Cap. 2:** Ordenação por Seleção (Arrays vs Listas Encadeadas)
 - [ ] **Cap. 3:** Recursão
 - [ ] **Cap. 4:** Quicksort & Estratégia "Dividir para Conquistar"
 - [ ] **Cap. 5:** Tabelas Hash
@@ -25,13 +23,17 @@ Futuramente, este repositório também servirá para armazenar soluções de des
 - [ ] **Cap. 9:** Programação Dinâmica
 - [ ] **Cap. 10:** K-vizinhos mais próximos (KNN)
 
-## 📂 Estrutura do Repositório
+## 🛠️ Tecnologias
+* **Linguagem:** Python 3.x
+* **Ferramentas:** VS Code
 
-```text
-/
-├── 01_intro_binary_search/
-│   ├── binary_search.py
-│   └── notes.md (Opcional: anotações rápidas de complexidade)
-├── 02_selection_sort/
-├── ...
-└── utils/ (Funções auxiliares que eu possa reutilizar)
+## ⚡ Como rodar
+Para executar qualquer algoritmo, navegue até a pasta correspondente e rode o arquivo Python:
+
+```bash
+cd 01_intro_binary_search
+python binary_search.py
+```
+
+---
+*Desenvolvido por Diogo durante os estudos do curso de Análise e Desenvolvimento de Sistemas.*
